@@ -1,2 +1,3 @@
 FROM tomcat:9
-COPY /gameoflife.war /webapps
+ARG JAR_FILE=target/gameoflife.war
+COPY ${JAR_FILE} /webapps

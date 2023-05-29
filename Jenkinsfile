@@ -3,7 +3,7 @@ def call(Map config) {
         agent any
         tools {
 maven 'maven'
-//jdk 'jdk8'	
+jdk 'jdk8'	
 }
         stages{
             stage('Checkout'){

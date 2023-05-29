@@ -4,6 +4,9 @@ def call(Map config) {
         tools {
 maven 'maven'
 jdk 'jdk8'
+
+	
+	
 }
         stages{
             stage('Checkout'){

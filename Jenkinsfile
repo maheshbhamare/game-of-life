@@ -2,7 +2,6 @@ def call(Map config) {
     pipeline{
         agent any
         tools {
-
 maven 'maven'
 jdk 'jdk8'
 }

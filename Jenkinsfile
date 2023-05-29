@@ -8,7 +8,6 @@ maven 'maven'
 jdk 'jdk8'
 
 }
-      
         stages{
             stage('Checkout'){
                 steps{

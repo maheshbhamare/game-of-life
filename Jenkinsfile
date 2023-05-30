@@ -1,5 +1,5 @@
 def call(Map config) {
-    pipeline{
+    //pipeline{
         agent any
         tools {
 maven 'maven'
